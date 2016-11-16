@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/sheng/workspace/CriminalIntent/app/build/intermediates/res/merged/debug/menu/fragment_crime_detail.xml",
+        "source": "/Users/sheng/workspace/CriminalIntent/app/src/main/res/menu/fragment_crime_detail.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/CriminalIntent/app/build/intermediates/res/merged/debug/menu/crime_list_item_context.xml",
+        "source": "/Users/sheng/workspace/CriminalIntent/app/src/main/res/menu/crime_list_item_context.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/CriminalIntent/app/build/intermediates/res/merged/debug/menu/crime_list_item_context_double.xml",
+        "source": "/Users/sheng/workspace/CriminalIntent/app/src/main/res/menu/crime_list_item_context_double.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/CriminalIntent/app/build/intermediates/res/merged/debug/menu/fragment_crime_list.xml",
+        "source": "/Users/sheng/workspace/CriminalIntent/app/src/main/res/menu/fragment_crime_list.xml"
+    }
+]

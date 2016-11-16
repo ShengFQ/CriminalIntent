@@ -1,0 +1,133 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/bignerdranch/
+* app/src/main/java/com/bignerdranch/android/
+* app/src/main/java/com/bignerdranch/android/criminalintent/
+* app/src/main/java/com/bignerdranch/android/criminalintent/Crime.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeAdapter.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeCameraActivity.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeCameraFragment.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/CriminalIntentJSONSerializer.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/DatepickeFragment.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/ImageFragment.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/Photo.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/PictureUtils.java
+* app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/ic_menu_add.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/ic_menu_add.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/ic_menu_add.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/backgroud_activated.xml
+* app/src/main/res/layout-land/
+* app/src/main/res/layout-land/fragment_crime.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_fragment.xml
+* app/src/main/res/layout/dialog_date.xml
+* app/src/main/res/layout/fragment_crime.xml
+* app/src/main/res/layout/fragment_crime_camera.xml
+* app/src/main/res/layout/fragment_crimes_list.xml
+* app/src/main/res/layout/list_item_crime.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/crime_list_item_context.xml
+* app/src/main/res/menu/crime_list_item_context_double.xml
+* app/src/main/res/menu/fragment_crime_detail.xml
+* app/src/main/res/menu/fragment_crime_list.xml
+* app/src/main/res/values-sw600dp/
+* app/src/main/res/values-sw600dp/dimens.xml
+* app/src/main/res/values-sw720dp-land/
+* app/src/main/res/values-sw720dp-land/dimens.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/ids.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

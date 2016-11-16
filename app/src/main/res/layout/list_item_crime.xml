@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backgroud_activated">
+    <!-- 3个基本元素 标题 日期 是否完成 -->
+	
+	
+	<!-- Checkbox靠右先定义 -->
+	<CheckBox android:id="@+id/crime_list_item_solvedCheckBox"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:gravity="center"
+	   android:layout_alignParentRight="true"
+	   android:focusable="false"
+	   android:padding="4dp"/>
+	
+	<!-- title靠左显示在Checkbox左边 -->
+	<TextView android:id="@+id/crime_list_item_titleTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@id/crime_list_item_solvedCheckBox"
+	    android:layout_alignParentLeft="true"
+	    android:text="title"
+	    android:paddingLeft="4dp"
+	    android:paddingRight="4dp"/>
+	
+	<!-- date靠左显示在title下面 -->
+	<TextView  android:id="@+id/crime_list_item_dateTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@id/crime_list_item_solvedCheckBox"
+	    android:layout_below="@id/crime_list_item_titleTextView"
+	    android:paddingLeft="4dp"
+	    android:paddingRight="4dp"
+	    android:layout_alignParentLeft="true"
+	    android:text="date display"
+	    />
+</RelativeLayout>
